@@ -1,0 +1,19 @@
+.email-in {
+    width: 586px;
+    height: 56px;
+    margin: 16px 167px 0px;
+}
+
+
+.btn-sign-in {
+    margin:auto ;
+       width: 75px;
+       height: 32px;
+       color: white;
+       background-color: var(--redcolor);
+   }
+   #language 
+   { width: 75px;
+       height: 32px;
+      margin: 2px;
+   }
