@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.first-section {
+    background-color: black;
+    background-image: url('https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg');
+    width: 100%;
+    height: 95vh;
+
+
+}
+
+.question-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-container svg {
+    color: #fff;
+    fill: currentColor;
+    width: 36px;
+    height: 36px;
+}
+
+:root {
+    --redcolor: #C11119;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 95vh;
+    background: rgb(0 0 0 / 40%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.logo {
+    margin-right: 20px;
+    width: 148px;
+    height: 40px;
+    color: var(--redcolor);
+    fill: currentColor;
+}
+
+header {
+    padding: 24px 32px;
+    margin: 0px 145px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#language {
+    color: #fff;
+    height: 100%;
+    margin-left: 24px;
+    padding: 6px 36px;
+    border-radius: 3px;
+    background: rgba(27, 24, 24, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.btn-sign-in {
+
+    margin-left: 24px;
+    border-radius: 5px;
+    margin-left: 24px;
+    padding: 7px 16px;
+    color: white;
+    background-color: var(--redcolor);
+
+}
+
+.btn {
+    border: none;
+    height: 100%;
+    color: white;
+    background-color: var(--redcolor);
+}
+
+.input-email {
+    color: #ffffff;
+    font-size: 20px;
+    height: 94.27%;
+    width: 360px;
+    background: rgba(27, 24, 24, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+
+}
+
+::placeholder {
+    padding-left: 12px;
+    font-size: 16px;
+    font-weight: 180;
+    color: #ffffffb3;
+}
+
+.btn-start {
+    margin-left: 5px;
+    border-radius: 6px;
+    height: 100%;
+    width: 202px;
+    padding: 12px 24px;
+
+
+}
+
+.email-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 586px;
+    height: 56px;
+    margin: 16px 167px 0px;
+}
+
+.first-page {
+    margin: 200px 176px;
+    text-align: center;
+}
+
+.first-page h1 {
+    color: white;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.first-page p {
+    color: #fff;
+    font-size: 24px;
+    margin: 16px 0px 0px;
+}
+
+.first-page form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form>h3 {
+    text-align: center;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.content-text h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.content-text p {
+    color: #fff;
+    font-size: 24px;
+    margin: 16px 0px 0px;
+}
+
+.second-section {
+    padding: 72px 0px;
+    background-color: black;
+}
+
+.second-content {
+    margin: 0px 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.image-frame {
+    position: relative;
+}
+
+.image-frame img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.image-frame video {
+    position: absolute;
+    top: 67px;
+    right: 0;
+    width: 479px;
+}
+
+.download {
+    display: flex;
+    width: 252px;
+    padding: 10px 12px;
+    height: 84px;
+    color: #fff;
+    border-radius: 10px;
+    border: 1.6px solid white;
+    position: absolute;
+    background-color: black;
+    left: 135px;
+    z-index: 20;
+    bottom: 29px;
+}
+
+.download p {
+    margin: auto;
+}
+
+.image-frame2 {
+    position: relative;
+}
+
+.image-frame2 img {
+    position: relative;
+    z-index: 10;
+}
+
+.image-frame2 video {
+    width: 500px;
+    height: 231px;
+    position: absolute;
+    top: 30px;
+    right: 68px;
+    z-index: 1;
+}
+
+.last {
+    background-color: black;
+    padding: 72px 0px;
+}
+
+.question h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+.question {
+    margin: 0px 160px;
+}
+
+.question-list {
+    margin-top: 24px;
+}
+
+.question-list ul>li {
+    font-size: 24px;
+    list-style: none;
+    padding: 1.5rem;
+    color: #fff;
+    background-color: #333232;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.question-list ul :hover {
+    background-color: #414141;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.question-list ul {
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: black;
+    padding: 72px 111px;
+
+}
+
+.foot-ul ul>li {
+    text-decoration: none;
+    margin: 16px 0px 0px 12px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.foot-ul ul>li>a {
+    color: #ffffffb3;
+    text-decoration: none;
+}
+
+.footer {
+
+    font-weight: 400;
+    padding: 0px 48px;
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px 48px;
+
+}
+
+.call>a {
+    color: #ffffffb3;
+    font-size: 16px;
+    padding: 0px 60px;
+}
+
+.lang-button {
+    margin: 25px 0px 0px 35px;
+
+}
+
+.country-name {
+    font-size: 14px;
+    color: #ffffffb3;
+    padding: 25px 0px 0px 60px;
+}
+
+.question-list form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.septration{
+    background-color: #414141;
+    height: 3px;
+}
+
+@media screen and (max-width: 1280px) {
+    
+    .second-content {
+        margin: 0px 32px;
+    }
+
+    footer {
+
+        padding: 72px 0px;
+
+        .footer {
+            padding: 0px 5px;
+        }
+
+    }
+
+    .question {
+        margin: 0px 32px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        margin: auto;
+    }
+
+    .second-content {
+        flex-wrap: wrap;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 0px 48px;
+
+    }
+
+    .question h2 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .question-list ul>li {
+        font-size: 18px;
+    }
+
+    .question-container svg {
+
+        width: 24px;
+        height: 24px;
+    }
+
+    .content-text h2 {
+        font-size: 32px;
+        font-weight: 700;
+
+    }
+
+    .content-text p {
+        font-size: 18px;
+    }
+
+    .content-text {
+        text-align: center;
+    }
+
+    .logo {
+        margin-right: 20px;
+        width: 89px;
+        height: 24px;
+
+    }
+
+    .first-page h1 {
+        font-size: 32px;
+        font-weight: 700;
+    }
+
+    .first-page p {
+        font-size: 18px;
+        margin: 16px 0px 0px;
+    }
+
+    form>h3 {
+
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    .first-page {
+        margin: 125px 32px;
+        text-align: center;
+    }
+
+    .email-in {
+        flex-wrap: wrap;
+        width: 100%;
+        height: 56px;
+        margin: 16px 0px 0px;
+    }
+    .first-section{
+        height: 80vh;
+    }
+    .main{
+        height: 80vh;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+    .image-frame {
+        position: relative;
+    }
+
+    .image-frame img {
+        width: 300px;
+        position: relative;
+        z-index: 10;
+    }
+
+    .image-frame video {
+        position: absolute;
+        top: 46px;
+        right: 0;
+        width: 260px;
+    }
+
+    .image-frame2 {
+        position: relative;
+    }
+
+    .image-frame2 img {
+        position: relative;
+        z-index: 10;
+        width: 312px;
+        height: 243px;
+    }
+
+    .image-frame2 video {
+        width: 312px;
+        height: 243px;
+
+        position: absolute;
+        top: 30px;
+        right: 68px;
+        z-index: 1;
+    }
+
+    .download {
+        width: 155px;
+        height: 49px;
+        position: absolute;
+        left: 58px;
+        bottom: 30px;
+    }
+
+    .input-email {
+        height: 94.27%;
+        width: 280px;
+
+    }
+
+    .second-section {
+        padding: 30px 0px;
+        background-color: black;
+    }
+
+    .image-frame2 video {
+        width: 193px;
+        height: 231px;
+        top: -47px;
+        right: 68px;
+
+    }
+
+    .btn-sign-in {
+        margin-top: 5px;
+        width: 75px;
+        height: 32px;
+        color: white;
+        background-color: var(--redcolor);
+    }
+
+    #language {
+        width: 75px;
+        height: 32px;
+        margin: 2px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .first-page{
+        margin: 100px 32px;
+    }
+    .btn-start {
+        margin: 5px;
+    
+     }
+}
